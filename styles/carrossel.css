@@ -35,12 +35,16 @@
     margin-bottom: 0.5em;
 }
 
-.descricao__titulo {
+.card__estrelas {
+    margin: 0.5em 0;
+}
+
+.descricao__titulo, .descricao__autora {
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descricao__titulo-livro {
+.descricao__titulo-livro, .descricao__nome-autora {
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
@@ -49,6 +53,7 @@
 
 .descricao__texto {
     font-size: 14px;
+    margin-right: 1em;
 }
 
 .card__botoes {
