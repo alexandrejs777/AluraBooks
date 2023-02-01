@@ -76,3 +76,55 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo{
+        font-size: 26px;
+        padding: 2em 0 0.5em 0;
+    }    
+    .swiper{
+        width: 60%;
+        padding-left: 3em;
+    }
+
+    .swiper img{
+        width: 80%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display:block;
+        top: 60%;
+        color: transparent;
+    }
+
+    .swiper-button-prev::before{
+        content:"<";
+        color: var(--branco);
+        font-size: 16px;
+        font-weight: 400;
+        background: var(--azul-degrade);
+        border-radius: 50%;
+        padding: 20% 40%;
+    }
+
+    .swiper-button-next::before{
+        content:">";
+        color: var(--branco);
+        font-size: 16px;
+        font-weight: 400;
+        background: var(--azul-degrade);
+        border-radius: 50%;
+        padding: 20% 40%;
+    }
+
+    .swiper-pagination{
+        position: initial;
+        margin: 2em 0 4em 0;
+    }
+
+    .card {
+        width: 40%;
+        margin: 3em auto;
+    }
+}
