@@ -36,6 +36,10 @@
     padding: 1em;
 }
 
+.container__texto {
+    display: none;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
@@ -109,6 +113,34 @@
 
     .opcoes__botao {
         display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 1728px) {
+    
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__imagem {
+        padding-right: 0;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__texto {
+        display: block;
     }
 
 }
